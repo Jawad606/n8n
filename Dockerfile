@@ -7,6 +7,9 @@ ENV N8N_USER_FOLDER=/home/node/.n8n
 ENV N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
 ENV DB_SQLITE_POOL_SIZE=2
 ENV N8N_RUNNERS_ENABLED=true
+ENV N8N_HOST=0.0.0.0
+ENV WEBHOOK_URL=https://discerning-hope-production.up.railway.app/
+ENV N8N_PORT=5678
 
 # Railway will provide PORT
 EXPOSE 5678
